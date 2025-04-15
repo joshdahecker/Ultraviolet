@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/titaniumnetwork-dev/Ultraviolet.git"
+    "url": "https://github.com/titaniumnetwork-dev/Ultraviolet.git"
   },
   "files": [
     "dist",
@@ -16,7 +16,7 @@
   ],
   "type": "module",
   "scripts": {
-    "build": "npm install --legacy-peer-deps && node build.js",
+    "build": "node build.js",
     "dev": "node build.js --dev",
     "prepack": "npm run build",
     "format": "prettier --config .prettierrc.js --write .",
@@ -42,4 +42,3 @@
     "set-cookie-parser": "^2.7.1"
   }
 }
-
